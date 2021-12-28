@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Thi_WAD.Models.Exam>
+
+@{ ViewBag.Title = "Index"; }
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Subject
+        </th>
+        <th>
+            Start Date
+        </th>
+        <th>
+            Exam Date
+        </th>
+        <th>
+            Duration
+        </th>
+        <th>
+            Class Room
+        </th>
+
+        <th>
+            Faculty
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Subject.name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.startTime)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.examDate)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.examduration)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Class.name)
+    </td>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Faculty1.name)
+    </td>
+
+</tr>}
+
+</table>

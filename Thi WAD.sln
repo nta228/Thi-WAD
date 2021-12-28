@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thi WAD", "Thi WAD\Thi WAD.csproj", "{54E492E7-0E54-43F8-B56B-A7C3E57528B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54E492E7-0E54-43F8-B56B-A7C3E57528B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E492E7-0E54-43F8-B56B-A7C3E57528B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E492E7-0E54-43F8-B56B-A7C3E57528B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E492E7-0E54-43F8-B56B-A7C3E57528B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B86FD40-2338-4C50-ABD0-69AF09321840}
+	EndGlobalSection
+EndGlobal
