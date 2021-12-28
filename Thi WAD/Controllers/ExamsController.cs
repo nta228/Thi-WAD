@@ -20,21 +20,6 @@ namespace Thi_WAD.Controllers
             return View(exams.ToList());
         }
 
-        // GET: Exams/Details/5
-        public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Exam exam = db.Exams.Find(id);
-            if (exam == null)
-            {
-                return HttpNotFound();
-            }
-            return View(exam);
-        }
-
         // GET: Exams/Create
         public ActionResult Create()
         {
